@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  background: url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+}
+
+#form-div {
+  background-color: rgba(72,72,72,0.4);
+  padding: 35px;
+  width: 450px;
+  position: absolute;
+  left: 50%;
+  margin-top: 30px;
+  margin-left: -260px;
+  border-radius: 7px;
+}
+
+.feedback-input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus {
+  background: #fff;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+}
+
+#name {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment {
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+#button-blue {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  font-size: 24px;
+  padding: 22px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#button-blue:hover {
+  background-color: rgba(0,0,0,0);
+  color: #0493bd;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding: 3%;
+  }
+}
