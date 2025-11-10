@@ -1,0 +1,31 @@
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+.DS_Store
+
+# Pastas de build e dependências
+node_modules/
+dist/
+
+# Arquivos de configuração sensíveis
+.env
+*.env
+
+# Arquivos de banco e dados locais
+*.sqlite
+*.db
+
+# Arquivos de configuração reais (exemplo: secrets reais)
+k8s/secrets.yml
+
+# Docker e Kubernetes
+*.pid
+*.sock
+*.tar
+*.crt
+*.key
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
